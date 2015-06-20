@@ -1,40 +1,17 @@
-# Athens
+# Amber-Athens
 
-The Application or The Library doing The Thing.
+Athens is a vector graphics library for Pharo. This is a port of Athens for Amber. It is implemented with HTML Canvas.
 
-## Getting Started
+**[Development Blog](http://amber-athens-blog.m-sp.org/)**
 
-Install Amber and create an Amber project,
-as shown in [Amber Instructions](https://github.com/amber-smalltalk/amber#prerequisites).
+**[Interactive Athens tutorial](http://matthias-springer.github.io/amber-athens)**
 
-## Use Athens as a library in a client project
+**[Interactive Morphic tutorial](http://matthias-springer.github.io/amber-athens/morphic.html)**
 
-If not already present, create a client project
-in an empty directory with `amber init`.
+*Note:* You have to run step2 before any you can run other steps since it creates the surface.
 
-In a client project, run
+*Note:* This is work in progress!
 
-```sh
-bower install Athens --save
-grunt devel
-amber serve
-```
+*Project description:* [ESUG GSoC website](http://gsoc2013.esug.org/projects/athen's%20html5%20canvas/proposal-a)
 
-Go to `http://localhost:4000/` in your browser and
-in all packages that use Athens,
-add `'amber-athens/Athens'` to the package imports,
-save the change and commit the package. Reload.
-
-## Contributing
-
-To bring project alive (for example after `git clone`):
-
-```sh
-npm install
-bower install
-grunt devel
-```
-
-Developing the project (after brought alive):
- 
-Start server with `amber serve` and go to `http://localhost:4000/` in your browser and follow the instructions
+Run this line in your workspace to start the Amber tutorial: `AthensTutorial open`.
