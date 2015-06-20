@@ -28,7 +28,7 @@
     ],
     "private": false,
     "dependencies": {
-        "amber": "^0.14.14",
+        "amber": "^0.14.16",
         "amber-contrib-jquery": ">=0.1.0",
         "amber-contrib-web": ">=0.1.0",
         "amber-contrib-domite": ">=0.3.1",
