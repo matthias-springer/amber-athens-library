@@ -1,6 +1,6 @@
 {
     "name": "athens",
-    "description": "The Application or The Library doing The Thing.",
+    "description": "Athens Vector Graphics Library",
     "version": "0.1.0",
     "ignore": [
         "**/.*",
@@ -17,10 +17,11 @@
             "email": "me@matthiasspringer.de"
         }
     ],
-    "homepage": "https://github.com/matthias/b",
+    "homepage": "https://github.com/matthias-springer/amber-athens-library",
     "keywords": [
         "Amber",
-        "Smalltalk"
+        "Smalltalk",
+        "Athens"
     ],
     "license": [
         "MIT"
