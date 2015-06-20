@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Athens</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Matthias Springer" />
+  </head>
+
+  <body>
+  <p>Once you start developing your own app / lib, you should
+      remove all unnecessary parts left from the sample app.</p>
+  <ul style="width: 40ex">
+      <li>In <code>index.html</code>
+          <code>&lt;body&gt;</code> tag,
+          everything should be removed, except
+          the <code>&lt;script&gt;</code> tag
+          that initializes Amber and starts your app;
+          then you can add elements specific to your own app
+          to the page.</li>
+      <li>If you aren't going to use <code>Web</code>
+          package from <code>amber-contrib-web</code> module,
+          but want to retain the jQuery wrapper,
+          you should run <code>bower uninstall amber-contrib-web --save</code>
+          from your CLI.</li>
+      <li>If you aren't going to use the <code>Web</code>
+          package from the <code>amber-contrib-web</code> module,
+          nor the jQuery wrapper from <code>amber-contrib-jquery</code>,
+          you should run <code>bower uninstall amber-contrib-web amber-contrib-jquery --save</code>
+          from your CLI.</li>
+      <li>You cannot remove just the jQuery wrapper and retain the Web package,
+          as it depends on the jQuery wrapper.</li>
+      <li>If you aren't going to use <code>Silk</code>
+          package from <code>silk</code> module,
+          but want to retain <code>DOMite</code> DOM wrapper,
+          you should run <code>bower uninstall silk --save</code>
+          from your CLI.</li>
+      <li>If you aren't going to use the <code>Silk</code>
+          package from the <code>silk</code> module,
+          nor the DOM wrapper from <code>amber-contrib-domite</code>,
+          you should run <code>bower uninstall silk amber-contrib-domite --save</code>
+          from your CLI.</li>
+      <li>You cannot remove just the <code>DOMite</code> DOM wrapper
+          and retain the Silk package, as it depends on <code>domite</code>.</li>
+      <li>As the last step, make sure the dependency tree is in a correct state
+          by recreating it: first delete your <code>bower_components</code> folder,
+          then run <code>bower install</code> from your CLI.</li>
+  </ul>
+  </body>
+
+</html>
